@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - final-project-folder/** #only trigers if files in this folder changes
 
 jobs:
   build:
